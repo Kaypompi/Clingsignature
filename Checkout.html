@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Checkout.css">
+        <title>Checkout @Clingsignature</title>
+        <link rel="icon" href="Vector.png" type="image/icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Josefin+Sans&family=Jost&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="Checkout.css">
+    </head>
+
+    <body>
+        <header class="contain">
+            <div>
+                <a href="Showcase.html">Back</a>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="section1">
+                <h3>Choose Your Delivery Time</h3>
+                <div class="delivery-service">
+                    <div class="delivery-type">
+                        <input type="radio" id="standard" value="standard" name="standard">
+                        <label for="standard">Standard</label>
+                        <h5>2 - 3 days</h5>
+                    </div>
+                    <small class="Normal-price" id="normalPrice">Normal service price.</small>
+                    
+                    <div class="delivery-type">
+                        <input type="radio" id="Express" value="express" name="standard">
+                        <label for="Express">Express</label>
+                        <h5>24 hrs</h5>
+                    </div>
+                    <small class="Normal-price" id="expressPrice">N500 will be added to each service price.</small>
+                </div>
+                <div class="Fee">
+                    <div class="Fee-type">
+                        <h6>Pick Up Fee</h6>
+                        <h6>Free</h6>
+                    </div>
+                    <div class="Fee-types">
+                        <h6>Delivery Fee</h6>
+                        <h6>Free</h6>
+                    </div>
+                </div>
+                
+                <div class="notification">
+                    <ion-icon name="notifications-outline"></ion-icon>
+                    <h5>Free pick up/delivery for orders above N10,000 within Lagos and above N20,000 for other states.</h5>
+                </div>
+        
+               
+
+                <div class="Payment">
+                    <h4>Checkout</h4>
+                    <div class="payment-info">
+                        <h5>Payment Information</h5>
+                    </div>
+                    <div class="credit-card">
+                        <div class="creditcardNum">
+                            <h5>Credit Card Number</h5>
+                        </div>
+                        <div class="creditimage">
+                            <img class="cardimg" src="visa.png">
+                            <img class="cardimg" src="mastercard.png">
+                        </div>
+                    </div>
+                    <form>
+                        <input type="text" id="cardNumber" placeholder="0000 0000 0000 0000">
+                    </form>
+
+                    <div class="card-details">
+                        <div class="expire">
+                            <label for="cardExpire">Expires</label>
+                            <div class="date">
+                                <div class="Month">
+                                    <select name="Month">
+                                        <option value="January">January</option>
+                                        <option value="Febuary">Febuary</option>
+                                        <option value="March">March</option>
+                                        <option value="April">April</option>
+                                        <option value="May">May</option>
+                                        <option value="June">June</option>
+                                        <option value="July">July</option>
+                                        <option value="August">August</option>
+                                        <option value="September">September</option>
+                                        <option value="October">October</option>
+                                        <option value="November">November</option>
+                                        <option value="December">December</option>
+                                    </select>
+                                </div>
+
+                                <div class="Year">
+                                    <select name="Year">
+                                        <option value="2021">2021</option>
+                                        <option value="2022">2022</option>
+                                        <option value="2023">2024</option>
+                                        <option value="2024">2024</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cvv">
+                            <label for="cvv">cvv</label>
+                            <input type="text" id="cvv" placeholder="000">
+                            <small>3 digits behind the card</small>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="notes">
+                            <h6>Notes</h6>
+                            <a href="#">Add Note</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="Products-Cart">
+                <div class="Order-summary">
+                    <h4>Order Summary</h4>
+                    <div class="Product-summary">
+                        <div>
+                            <img class="img1" src="image-2 (4).png" alt="img1">
+                        </div>
+                        <div class="cartprice">
+                            <h3>mySignatures</h3>
+                            <h5>Qty: 4</h5>
+                            <p id="serviceprice">N8,000</p>
+                        </div>
+                    </div>
+                    <div class="Product-summary">
+                        <div>
+                            <img class="img2" src="image-2 (3).png" alt="img1">
+                        </div>
+                        <div class="cartprice">
+                            <h3>Leather Treatment</h3>
+                            <h5>Qty: 4</h5>
+                            <p id="serviceprice">N12,000</p>
+                        </div>
+                    </div>
+                    <div class="Product-summary">
+                        <div>
+                            <img class="img3" src="image-2.png" alt="img1">
+                        </div>
+                        <div class="cartprice">
+                            <h3>Repairs</h3>
+                            <h5>Qty: 2</h5>
+                            <p id="serviceprice">N12,000</p>
+                        </div>
+                    </div>
+
+                    <div class="Product-summary total">
+                        <div>
+                            <h3>Sub-Total</h3>
+                        </div>
+                        <div>
+                            <h3>N28,000</h3>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <button type="submit" onclick="getPrice()" id="payButton">Pay now</button>
+
+        <footer>
+            <div>
+                <div class="foot1">
+                    <div class="footline"></div>
+                    <img class="footer-logo" src="Vector.png" alt="vector">
+                    <div class="footline"></div>
+                </div>
+            </div>
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="About us.html">About</a></li>
+                    <li><a href="Privacy Policy.html">Privacy Policy</a></li>
+                    <li><a href="Term and Condition.html">Conditions of Use</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <small>&copy; 2021 Clingsignatures</small>
+            </div>
+        </footer>  
+
+        
+    </body>
+
+    <script src="cart.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</html>

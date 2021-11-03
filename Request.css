@@ -1,0 +1,881 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contain {
+    padding: 30px 50px;
+}
+
+header a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #666666;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+}
+
+header a::before {
+    content: "\2190";
+    margin: 0px 10px;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 0px
+}
+
+
+.section01 h3 {
+    font-size: 2.2em;
+    color: #3ACE82;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0px;
+    margin-bottom: 50px;
+}
+
+.floatshoe {
+    width: 254px;
+    height: 259px;
+}
+
+#button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+#button button {
+    margin: 10px 0px;
+}
+
+#button #product {
+    background-color: #c4c4c4;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    border-color: #c4c4c4;
+    border-style: none;
+    outline: #c4c4c4;
+    border-radius: 40px;
+    line-height: 25px;
+    padding: 10px 50px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    box-shadow: 4px 4px 3px 0px rgba(204, 199, 199, 0.692);
+    -webkit-box-shadow: 4px 4px 3px 0px rgba(204, 199, 199, 0.692);
+    -moz-box-shadow: 4px 4px 3px 0px rgba(204,199,199,0.692);
+}
+
+#button #footwearcare {
+    background-color: #1EC173;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    border-color: #1EC173;
+    border-style: none;
+    outline: #1EC173;
+    border-radius: 40px;
+    line-height: 25px;
+    padding: 10px 50px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    box-shadow: 4px 4px 3px 0px rgba(204, 199, 199, 0.692);
+    -webkit-box-shadow: 4px 4px 3px 0px rgba(204, 199, 199  , 0.692);
+    -moz-box-shadow: 4px 4px 3px 0px rgba(204,199,199,0.692);
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.footline {
+    height: 1px;
+    width: 44%;
+    border: 1px solid #a9a9a9;
+}
+
+.foot1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+.footer-nav ul li {
+    margin: 0px 10px;
+    padding-left: 30px;
+    list-style: none;
+}
+
+.footer-nav ul li a {
+    text-decoration: none;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    color: #484848;
+    font-size: 1.2em;
+}
+
+footer small {
+    color: #484848;
+    font-size: 1em;
+    font-family: 'Jost', sans-serif;
+}
+
+
+/*MEDIA QUERIES*/
+
+/*SMALL SIZE SCREEN*/
+
+@media (max-width: 375px) {
+    .contain {
+        padding: 20px 20px 10px;
+    }
+
+    header a {
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        color: #666666;
+        font-weight: 500;
+        letter-spacing: 1px;
+        font-size: 1em;
+    }
+    
+    header a::before {
+        content: "\2190";
+        margin: 0px 10px;
+    }
+
+    .section1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 50px 0px
+    }
+    
+    .section1 {
+        padding: 50px 0px;
+    }
+
+    .section01 h3 {
+        font-size: 1.6em;
+        color: #3ACE82;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+        letter-spacing: 0px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .floatshoe {
+        width: 254px;
+        height: 259px;
+        transform: scaleX(-1);
+        margin-bottom: 30px;
+    }
+    
+    #button {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 30px 0px 0px;
+    }
+
+    #button #product {
+        background-color: #c4c4c4;
+        color: #fff;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 21px;
+        font-weight: 400;
+        border-color: #c4c4c4;
+        border-style: none;
+        outline: #c4c4c4;
+        border-radius: 40px;
+        line-height: 22px;
+        padding: 10px 50px;
+        cursor: pointer;
+        letter-spacing: 1px;
+        box-shadow: 4px 4px 3px 0px rgba(204, 199, 199, 0.692);
+        -webkit-box-shadow: 4px 4px 3px 0px rgba(204, 199, 199, 0.692);
+        -moz-box-shadow: 4px 4px 3px 0px rgba(204,199,199,0.692);
+    }
+
+    #button #footwearcare {
+        background-color: #1EC173;
+        color: #fff;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 21px;
+        font-weight: 400;
+        border-color: #1EC173;
+        border-style: none;
+        outline: #1EC173;
+        border-radius: 40px;
+        line-height: 25px;
+        padding: 10px 50px;
+        cursor: pointer;
+        letter-spacing: 1px;
+        box-shadow: 4px 4px 3px 0px rgba(204, 199, 199, 0.692);
+        -webkit-box-shadow: 4px 4px 3px 0px rgba(204, 199, 199  , 0.692);
+        -moz-box-shadow: 4px 4px 3px 0px rgba(204,199,199,0.692);
+    }
+
+    .footer-logo {
+        width: 10%;
+        height: 10%;
+    }
+
+    
+    footer {
+        background-color: #f2f2f2;
+        padding: 40px 0px;
+        text-align: center;
+    }
+    
+    .footline {
+        height: 1px;
+        width: 42%;
+        border: 1px solid #a9a9a9;
+    }
+
+
+    .foot1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .footer-nav ul {
+        display: flex;
+        justify-content: space-around;
+        margin: 30px 0px;
+    }
+    
+    .footer-nav ul li {
+        margin: 0px 0px;
+        padding-left: 20px;
+        list-style: none;
+    }
+    
+    .footer-nav ul li a {
+        text-decoration: none;
+        font-family: 'Jost', sans-serif;
+        font-weight: 400;
+        color: #484848;
+        font-size: 13px;
+        line-height: 18px;
+    }
+    
+    footer small {
+        color: #484848;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 14px;
+        font-family: 'Jost', sans-serif;
+    }
+    
+}
+
+/*MEDIUM & BIG SMART PHONES*/
+
+@media (min-width:375.99px) and (max-width: 750px) {
+    .contain {
+        padding: 30px 20px 15px;
+    }
+    
+    header a {
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        color: #666666;
+        font-weight: 500;
+        letter-spacing: 1px;
+        font-size: 1.1em;
+    }
+    
+    header a::before {
+        content: "\2190";
+        margin: 0px 10px;
+    }
+    
+    .section1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 50px 0px
+    }
+    
+    .section1 {
+        padding: 50px 0px;
+    }
+    
+    .section01 h3 {
+        font-size: 1.8em;
+        color: #3ACE82;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 500;
+        letter-spacing: 0px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    
+    .floatshoe {
+        width: 85%;
+        height: auto;
+        transform: scaleX(-1);
+        margin: 20px 0px 30px;
+    }
+    
+    #button {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    #button button {
+        margin: 20px 0px;
+    }
+    
+    #button #product {
+        background-color: #c4c4c4;
+        color: #fff;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+        border-color: #c4c4c4;
+        border-style: none;
+        outline: #c4c4c4;
+        border-radius: 40px;
+        line-height: 24px;
+        padding: 10px 50px;
+        cursor: pointer;
+        letter-spacing: 1px;
+        box-shadow: 4px 4px 3px 0px rgba(204, 199, 199, 0.692);
+        -webkit-box-shadow: 4px 4px 3px 0px rgba(204, 199, 199, 0.692);
+        -moz-box-shadow: 4px 4px 3px 0px rgba(204,199,199,0.692);
+    }
+    
+    #button #footwearcare {
+        background-color: #1EC173;
+        color: #fff;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+        border-color: #1EC173;
+        border-style: none;
+        outline: #1EC173;
+        border-radius: 40px;
+        line-height: 24px;
+        padding: 10px 50px;
+        cursor: pointer;
+        letter-spacing: 1px;
+        box-shadow: 4px 4px 3px 0px rgba(204, 199, 199, 0.692);
+        -webkit-box-shadow: 4px 4px 3px 0px rgba(204, 199, 199  , 0.692);
+        -moz-box-shadow: 4px 4px 3px 0px rgba(204,199,199,0.692);
+    }
+
+    .footer-logo {
+        width: 10%;
+        height: 10%;
+    }
+
+
+    footer {
+        background-color: #f2f2f2;
+        padding: 40px 0px;
+        text-align: center;
+    }
+    
+    .footline {
+        height: 1px;
+        width: 42%;
+        border: 1px solid #a9a9a9;
+    }
+
+    .foot1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .footer-nav ul {
+        display: flex;
+        justify-content: space-around;
+        margin: 30px 10px;
+    }
+    
+    .footer-nav ul li {
+        margin: 0px 10px;
+        padding-left: 10px;
+        list-style: none;
+    }
+    
+    .footer-nav ul li a {
+        text-decoration: none;
+        font-family: 'Jost', sans-serif;
+        font-weight: 400;
+        color: #484848;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    
+    footer small {
+        color: #484848;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        font-family: 'Jost', sans-serif;
+    }
+}
+
+
+/*IPAD & TABLET*/
+
+
+@media (min-width:750.99px) and (max-width: 1021.99px) {
+    html, body {
+        height: 100vh;
+    }
+
+    .contain {
+        padding: 30px 20px 15px;
+    }
+    
+    header a {
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        color: #666666;
+        font-weight: 500;
+        letter-spacing: 1px;
+        font-size: 1.2em;
+    }
+    
+    header a::before {
+        content: "\2190";
+        margin: 0px 10px;
+    }
+    
+    .section1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 50px 0px;
+        margin-top: 10%;
+    }
+    
+    
+    .section01 h3 {
+        font-size: 2.2em;
+        color: #3ACE82;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        letter-spacing: 0px;
+        margin-bottom: 50px;
+        text-align: center;
+        letter-spacing: .9px;
+    }
+    
+    .floatshoe {
+        width: 85%;
+        height: auto;
+        transform: scaleX(-1);
+        margin: 30px 0px;
+    }
+    
+    #button {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 30px;
+    }
+    
+    #button button {
+        margin: 20px 0px;
+    }
+    
+    #button #product {
+        background-color: #c4c4c4;
+        color: #fff;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 26px;
+        font-weight: 400;
+        border-color: #c4c4c4;
+        border-style: none;
+        outline: #c4c4c4;
+        border-radius: 40px;
+        line-height: 26px;
+        padding: 10px 50px;
+        cursor: pointer;
+        letter-spacing: 1px;
+        box-shadow: 4px 4px 3px 0px rgba(204, 199, 199, 0.692);
+        -webkit-box-shadow: 4px 4px 3px 0px rgba(204, 199, 199, 0.692);
+        -moz-box-shadow: 4px 4px 3px 0px rgba(204,199,199,0.692);
+    }
+    
+    #button #footwearcare {
+        background-color: #1EC173;
+        color: #fff;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 26px;
+        font-weight: 400;
+        border-color: #1EC173;
+        border-style: none;
+        outline: #1EC173;
+        border-radius: 40px;
+        line-height: 26px;
+        padding: 10px 50px;
+        cursor: pointer;
+        letter-spacing: 1px;
+        box-shadow: 4px 4px 3px 0px rgba(204, 199, 199, 0.692);
+        -webkit-box-shadow: 4px 4px 3px 0px rgba(204, 199, 199  , 0.692);
+        -moz-box-shadow: 4px 4px 3px 0px rgba(204,199,199,0.692);
+    }
+
+    .footer-logo {
+        width: 10%;
+        height: 10%;
+    }
+
+    footer {
+        background-color: #f2f2f2;
+        padding: 40px 0px;
+        text-align: center;
+    }
+    
+    .footline {
+        height: 1px;
+        width: 42%;
+        border: 1px solid #a9a9a9;
+    }
+
+    .foot1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .footer-nav ul {
+        display: flex;
+        justify-content: space-around;
+        margin: 40px 80px;
+    }
+    
+    .footer-nav ul li {
+        margin: 0px 10px;
+        padding-left: 20px;
+        list-style: none;
+    }
+    
+    .footer-nav ul li a {
+        text-decoration: none;
+        font-family: 'Jost', sans-serif;
+        font-weight: 400;
+        color: #484848;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+    footer small {
+        color: #484848;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        font-family: 'Jost', sans-serif;
+        text-align: center;
+    }
+}
+
+/*MEDIUM SIZE LAPTOPS*/
+
+@media (min-width: 1022px) and (max-width: 1279.99px) {
+    .contain {
+        padding: 30px 50px 20px;
+    }
+    
+    header a {
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        color: #666666;
+        font-weight: 500;
+        letter-spacing: 1px;
+        font-size: 1.2em;
+    }
+    
+    header a::before {
+        content: "\2190";
+        margin: 0px 10px;
+    }
+    
+    .section1 {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 50px 0px;
+        margin-top: 10%
+    }
+    
+    .section01 h3 {
+        font-size: 2.2em;
+        color: #3ACE82;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        letter-spacing: 0px;
+        margin-bottom: 50px;
+        letter-spacing: 0.9px;
+    }
+    
+    .floatshoe {
+        width: 254px;
+        height: 259px;
+    }
+    
+    #button {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: baseline;
+    }
+    
+    #button button {
+        margin: 20px 0px;
+    }
+    
+    #button #product {
+        background-color: #c4c4c4;
+        color: #fff;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 25px;
+        font-weight: 400;
+        border-color: #c4c4c4;
+        border-style: none;
+        outline: #c4c4c4;
+        border-radius: 40px;
+        line-height: 26px;
+        padding: 10px 50px;
+        cursor: pointer;
+        letter-spacing: 1px;
+        box-shadow: 4px 4px 3px 0px rgba(204, 199, 199, 0.692);
+        -webkit-box-shadow: 4px 4px 3px 0px rgba(204, 199, 199, 0.692);
+        -moz-box-shadow: 4px 4px 3px 0px rgba(204,199,199,0.692);
+    }
+    
+    #button #footwearcare {
+        background-color: #1EC173;
+        color: #fff;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        border-color: #1EC173;
+        border-style: none;
+        outline: #1EC173;
+        border-radius: 40px;
+        line-height: 25px;
+        padding: 10px 50px;
+        cursor: pointer;
+        letter-spacing: 1px;
+        box-shadow: 4px 4px 3px 0px rgba(204, 199, 199, 0.692);
+        -webkit-box-shadow: 4px 4px 3px 0px rgba(204, 199, 199  , 0.692);
+        -moz-box-shadow: 4px 4px 3px 0px rgba(204,199,199,0.692);
+    }
+
+    footer {
+        background-color: #f2f2f2;
+        padding: 40px 0px;
+        text-align: center;
+    }
+    
+    .footline {
+        height: 1px;
+        width: 44%;
+        border: 1px solid #a9a9a9;
+    }
+    
+    .foot1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .footer-nav ul {
+        display: flex;
+        justify-content: center;
+        margin: 30px 0px;
+    }
+    
+    .footer-nav ul li {
+        margin: 0px 10px;
+        padding-left: 30px;
+        list-style: none;
+    }
+    
+    .footer-nav ul li a {
+        text-decoration: none;
+        font-family: 'Jost', sans-serif;
+        font-weight: 400;
+        color: #484848;
+        font-size: 1.2em;
+    }
+    
+    footer small {
+        color: #484848;
+        font-size: 1em;
+        font-family: 'Jost', sans-serif;
+    }
+}
+
+
+/*LARGE SCREEN*/
+
+@media (min-width: 1280px) {
+    .contain {
+        padding: 30px 50px 15px;
+    }
+    
+    header a {
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        color: #666666;
+        font-weight: 500;
+        letter-spacing: 1px;
+        font-size: 1.2em;
+    }
+    
+    header a::before {
+        content: "\2190";
+        margin: 0px 10px;
+    }
+    
+    .section1 {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 50px 0px
+    }
+    
+   
+    .section01 h3 {
+        font-size: 2.4em;
+        color: #3ACE82;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        letter-spacing: 0px;
+        margin-bottom: 50px;
+        line-height: 30px;
+        letter-spacing: 1px;
+    }
+    
+    .floatshoe {
+        width: 85%;
+        height: auto;
+    }
+    
+    #button {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: baseline;
+    }
+    
+    #button button {
+        margin: 15px 0px;
+    }
+    
+    #button #product {
+        background-color: #c4c4c4;
+        color: #fff;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 27px;
+        font-weight: 400;
+        border-color: #c4c4c4;
+        border-style: none;
+        outline: #c4c4c4;
+        border-radius: 40px;
+        line-height: 27px;
+        padding: 12px 50px;
+        cursor: pointer;
+        letter-spacing: 1px;
+        box-shadow: 4px 4px 3px 0px rgba(204, 199, 199, 0.692);
+        -webkit-box-shadow: 4px 4px 3px 0px rgba(204, 199, 199, 0.692);
+        -moz-box-shadow: 4px 4px 3px 0px rgba(204,199,199,0.692);
+    }
+    
+    #button #footwearcare {
+        background-color: #1EC173;
+        color: #fff;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 27px;
+        font-weight: 400;
+        border-color: #1EC173;
+        border-style: none;
+        outline: #1EC173;
+        border-radius: 40px;
+        line-height: 27px;
+        padding: 12px 50px;
+        cursor: pointer;
+        letter-spacing: 1px;
+        box-shadow: 4px 4px 3px 0px rgba(204, 199, 199, 0.692);
+        -webkit-box-shadow: 4px 4px 3px 0px rgba(204, 199, 199  , 0.692);
+        -moz-box-shadow: 4px 4px 3px 0px rgba(204,199,199,0.692);
+    }
+
+    footer {
+        background-color: #f2f2f2;
+        padding: 40px 0px;
+        text-align: center;
+    }
+    
+    .footline {
+        height: 1px;
+        width: 45%;
+        border: 1px solid #a9a9a9;
+    }
+    
+    .foot1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .footer-nav ul {
+        display: flex;
+        justify-content: center;
+        margin: 30px 0px;
+    }
+    
+    .footer-nav ul li {
+        margin: 0px 10px;
+        padding-left: 50px;
+        list-style: none;
+    }
+    
+    .footer-nav ul li a {
+        text-decoration: none;
+        font-family: 'Jost', sans-serif;
+        font-weight: 400;
+        color: #484848;
+    }
+    
+    footer small {
+        color: #484848;
+        font-size: 1em;
+        font-family: 'Jost', sans-serif;
+    }
+}

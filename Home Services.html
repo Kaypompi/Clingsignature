@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Clingsignature.css">
+        <title>Home Services @Clingsignature</title>
+        <link rel="icon" href="Vector.png" type="image/icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Josefin+Sans&family=Jost&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="PickUp.css">
+    </head>
+
+    <body>
+        <header class="contain">
+            <div>
+                <a href="Footwear-Care.html">Back</a>
+            </div>
+
+            <div id="ServiceButton">
+                <div></div>
+                <div>
+                    <button onclick="window.location.href='Home Services Prices.html'" id="serviceButton" type="button">Prices</button>
+                </div>
+            </div>
+        </header>
+
+        <div class="section1">
+            <div class="section01">
+                <h5>Notice!</h5>
+                <p>Your health is what matters most to us. Hence, my-signature is a required service comprising of footwear Cleaning and Disinfecting.</p> 
+                <h6>Stay Clean, Stay Healthy!</h6>
+
+            </div>
+        </div>
+
+        <div class="section2">
+            <div class="section02">
+                <h2>Select your Home service</h2>
+            </div>
+
+            <form action="/Home Services.php" method="post">
+                <div class="form">
+                    <div>
+                        <input type="checkbox" required default checked disabled id="mySignature" name="Service" value="MY SIGNATURES">
+                        <label a for="mySignature">My Signatures</label>
+                    </div>
+                    <div>
+                        <input type="text" name="service" id="text" placeholder="Footwear Quantity"> 
+                    </div>
+                </div>
+                <div class="form">
+                    <div>
+                        <input type="radio" id="deodorizing" name="Service" value="DEODORIZING">
+                        <label for="deodorizing">Deodorizing</label>
+                    </div>
+                    <div>
+                        <input type="text" name="service" id="text" placeholder="Footwear Quantity"> 
+                    </div>
+                </div>
+                <div class="form">
+                    <div>
+                        <input type="radio" id="leatherTreatment" name="Service" value="LEATHER TREATMENT">
+                        <label for="leatherTreatment">Leather Treatment</label>
+                    </div>
+                    <div>
+                        <input type="text" name="service" id="text" placeholder="Footwear Quantity"> 
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="section3">
+            <div class="section30 contain">
+                <form id="form2" method="get" action="Checkout.html">
+                    <input type="text" id="FullName" name="fullName" autocomplete="on" size="39" placeholder="Enter Name">
+                    <input type="email" id="Email" name="email" autocomplete="on" size="56" placeholder="Enter email">
+                    <input type="text" id="Location" name="Location" autocomplete="on" size="60" placeholder="Pick Up Location">
+                    <input type="text" id="Address" name="address" autocomplete="on" size="60" placeholder="Delivery Address">
+                    <input type="tel" id="Telephone" name="telephone" autocomplete="on" required="number" placeholder="Phone">
+
+                    <div class="file">
+                        <input type="file" id="img" name="img" accept="image/*" hidden>
+                        <span>&#43;</span>
+                        <label for="img">Upload Footwear Image</label>
+                    </div>
+
+                    <div>
+                        <button onclick="windows.location.href='checkout.html'" id="proceedButton" type="submit">Proceed</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="section4">
+            <div class="section40">
+                <h5>By proceeding, you agree to our Terms and Privacy Policy</h5>
+                <img class="white-footwear" src="Rectangle 98.png" alt="white footwear">
+                <a href="Showcase.html">Showcase</a>
+
+            </div>
+        </div>
+
+
+        <footer>
+            <div>
+                <div class="foot1">
+                    <div class="footline"></div>
+                    <img src="Vector.png" alt="vector">
+                    <div class="footline"></div>
+                </div>
+            </div>
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="About us.html">About</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Conditions of Use</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <small>&copy; 2021 Clingsignatures</small>
+            </div>
+        </footer>  
+
+        
+    </body>
+
+</html>
